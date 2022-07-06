@@ -1,4 +1,5 @@
-const io=require("socket.io")(8900,{
+const port="https://socket-app30.herokuapp.com";
+const io=require("socket.io")(port,{
     cors:{
         origin: "http://localhost:3000",
     },
